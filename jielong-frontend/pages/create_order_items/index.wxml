@@ -1,0 +1,26 @@
+<view class="create_item_wrap">
+    <view class="description">
+        描述：
+        <input type="text" value="{{descriptionVal}}" bindinput="handleDescription"/>
+    </view>
+    <view class="price">
+        价格：
+        <input type="digit" value="{{priceVal}}" bindinput="handlePrice"/>
+    </view>
+    <view class="largest_quantity">
+        最高数量：
+        <input type="number" value="{{quantityVal}}" bindinput="handleQuantity"/>
+    </view>
+    <label class="checkbox">
+        <switch class="need_name" checked="{{needName}}" type="checkbox" bindchange="handleNeedName" />需要姓名
+    </label>
+    <label class="checkbox">
+        <switch class="need_phone" checked="{{needPhone}}" type="checkbox" bindchange="handleNeedPhone" />需要电话
+    </label>
+</view>
+
+<view class="next_page_wrap">
+    <button class="next_page" bindtap = "handleSubmit" form-type="submit">
+        提交
+    </button>
+</view>

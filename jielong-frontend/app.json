@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order_list/index",
+    "pages/cart_list/index",
+    "pages/item_detail/index",
+    "pages/order_submit/index",
+    "pages/create_order_items/index",
+    "pages/create_order_conditions/index",
+    "pages/search/index",
+    "pages/edit_item_detail/index",
+    "pages/create_product_detail/index",
+    "pages/create_delivery_detail/index",
+    "pages/product_detail/index",
+    "pages/delivery_detail/index",
+    "pages/edit_product_detail/index",
+    "pages/edit_delivery_detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#66ccff",
+    "navigationBarTitleText": "接龙助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#66ccff",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/shouye.png",
+        "selectedIconPath": "icons/shouye-o.png"
+      },
+      {
+        "pagePath": "pages/cart_list/index",
+        "text": "组单",
+        "iconPath": "icons/zudan.png",
+        "selectedIconPath": "icons/zudan-o.png"
+      },
+      {
+        "pagePath": "pages/order_list/index",
+        "text": "我的",
+        "iconPath": "icons/wode.png",
+        "selectedIconPath": "icons/wode-o.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

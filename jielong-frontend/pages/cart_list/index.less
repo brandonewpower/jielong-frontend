@@ -1,0 +1,53 @@
+.first_tab{
+  .jielong_item{
+    display: flex;
+    border-bottom: 1rpx solid #ccc;
+    // .jielongs_img_wrap{
+    //   flex: 2;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   image{
+    //     width: 70%;
+    //   }
+    // }
+
+    .jielongs_info_wrap{
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .jielongs_name{
+       display: -webkit-box;
+       overflow: hidden;
+       -webkit-box-orient: vertical;
+       -webkit-line-clamp: 2; 
+      }
+      .jielongs_price{
+        color: var(--themeColor);
+        font-size: 32rpx;
+      }
+    }
+  }
+}
+
+.add_jielong{
+  display: flex;
+  flex-wrap: wrap;
+  .add_jielong_icon{
+    position: fixed;
+    bottom: 60rpx;
+    right: 40rpx;
+
+    width: 90rpx;
+    height: 90rpx;
+    font-size: 60rpx;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rpx;
+    border: 5rpx solid #ccc;
+    border-radius: 50%;
+  }
+}

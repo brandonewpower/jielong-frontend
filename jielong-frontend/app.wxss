@@ -1,0 +1,6 @@
+@import "styles/iconfont.wxss";
+
+page {
+    --themeColor: #66ccff;
+    font-size: 28rpx;
+}
